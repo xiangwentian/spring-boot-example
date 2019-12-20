@@ -1,0 +1,38 @@
+2019-12-20 11:21:27.705  INFO 7184 --- [restartedMain] c.j.SpringBootExampleApplication         : Starting SpringBootExampleApplication on DESKTOP-0B8266I with PID 7184 (D:\workspace_idea\spring-boot-example\target\classes started by liuzhuang in D:\workspace_idea\spring-boot-example)
+2019-12-20 11:21:27.716  INFO 7184 --- [restartedMain] c.j.SpringBootExampleApplication         : No active profile set, falling back to default profiles: default
+2019-12-20 11:21:27.896  INFO 7184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-20 11:21:27.897  INFO 7184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-20 11:21:30.252  INFO 7184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-12-20 11:21:30.330  INFO 7184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-20 11:21:30.333  INFO 7184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-20 11:21:30.537  INFO 7184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-20 11:21:30.538  INFO 7184 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2640 ms
+2019-12-20 11:21:30.883  INFO 7184 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-20 11:21:30.994  INFO 7184 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-20 11:21:31.348  INFO 7184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-20 11:21:31.471  INFO 7184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-12-20 11:21:31.477  INFO 7184 --- [restartedMain] c.j.SpringBootExampleApplication         : Started SpringBootExampleApplication in 5.26 seconds (JVM running for 9.743)
+2019-12-20 11:21:55.225  INFO 7184 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-20 11:21:55.227  INFO 7184 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-20 11:21:55.236  INFO 7184 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-20 11:22:19.378  INFO 7184 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-20 11:22:20.865  INFO 7184 --- [restartedMain] c.j.SpringBootExampleApplication         : Starting SpringBootExampleApplication on DESKTOP-0B8266I with PID 7184 (D:\workspace_idea\spring-boot-example\target\classes started by liuzhuang in D:\workspace_idea\spring-boot-example)
+2019-12-20 11:22:20.866  INFO 7184 --- [restartedMain] c.j.SpringBootExampleApplication         : No active profile set, falling back to default profiles: default
+2019-12-20 11:22:21.439  WARN 7184 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2019-12-20 11:22:21.497  INFO 7184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-12-20 11:22:21.499  INFO 7184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-20 11:22:21.500  INFO 7184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-20 11:22:21.568  INFO 7184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-20 11:22:21.569  INFO 7184 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 698 ms
+2019-12-20 11:22:21.672  INFO 7184 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-20 11:22:21.710  INFO 7184 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-20 11:22:21.810  INFO 7184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-20 11:22:21.843  INFO 7184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-12-20 11:22:21.845  INFO 7184 --- [restartedMain] c.j.SpringBootExampleApplication         : Started SpringBootExampleApplication in 1.087 seconds (JVM running for 60.11)
+2019-12-20 11:22:21.867  INFO 7184 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-20 11:22:29.392  INFO 11068 --- [main] c.j.s.SpringBootExampleApplicationTests  : Starting SpringBootExampleApplicationTests on DESKTOP-0B8266I with PID 11068 (started by liuzhuang in D:\workspace_idea\spring-boot-example)
+2019-12-20 11:22:29.397  INFO 11068 --- [main] c.j.s.SpringBootExampleApplicationTests  : No active profile set, falling back to default profiles: default
+2019-12-20 11:22:32.699  INFO 11068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-20 11:22:32.915  INFO 11068 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-20 11:22:33.430  INFO 11068 --- [main] c.j.s.SpringBootExampleApplicationTests  : Started SpringBootExampleApplicationTests in 5.445 seconds (JVM running for 10.339)
+2019-12-20 11:22:34.969  INFO 11068 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * redisson实现限流操作
+ */
 @Slf4j
 @Component
 public class RedissonRate {

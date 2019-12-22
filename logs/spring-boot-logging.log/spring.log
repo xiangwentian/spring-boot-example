@@ -5460,3 +5460,388 @@
 2019-12-22 22:00:05.512  WARN 3352 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:150
 2019-12-22 22:00:05.512  INFO 3352 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:149,result:false
 2019-12-22 22:00:05.530  INFO 3352 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-22 23:22:27.445  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : Starting RedissonLimiteTest on DESKTOP-0B8266I with PID 9268 (started by liuzhuang in D:\workspace_idea\spring-boot-example)
+2019-12-22 23:22:27.448  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : No active profile set, falling back to default profiles: default
+2019-12-22 23:22:30.882  INFO 9268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 23:22:30.890  INFO 9268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-22 23:22:31.424  INFO 9268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 492ms. Found 0 Redis repository interfaces.
+2019-12-22 23:22:33.493  INFO 9268 --- [main] org.redisson.Version                     : Redisson 3.11.6
+2019-12-22 23:22:36.309  INFO 9268 --- [redisson-netty-2-12] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:22:36.332  INFO 9268 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:22:36.463  INFO 9268 --- [main] com.workman.utils.RedissonManager        : ===============redisson start
+2019-12-22 23:22:36.464  INFO 9268 --- [main] com.workman.utils.RedissonManager        : ===========redisson create
+2019-12-22 23:22:36.465  INFO 9268 --- [main] com.workman.config.RedissonConfig        : ======config:192.168.118.130,6379
+2019-12-22 23:22:36.497  INFO 9268 --- [main] org.redisson.Version                     : Redisson 3.11.6
+2019-12-22 23:22:37.077  INFO 9268 --- [redisson-netty-5-10] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:22:37.093  INFO 9268 --- [redisson-netty-5-11] o.r.c.pool.MasterConnectionPool          : 100 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:22:37.098  INFO 9268 --- [main] com.workman.utils.RedissonManager        : ===========redisson create fin
+2019-12-22 23:22:38.823  INFO 9268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-22 23:22:38.983  INFO 9268 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-22 23:22:40.443  INFO 9268 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-22 23:22:40.549  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : Started RedissonLimiteTest in 16.133 seconds (JVM running for 20.987)
+2019-12-22 23:22:41.430  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:1
+2019-12-22 23:22:41.431  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:0,result:true
+2019-12-22 23:22:41.438  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:2
+2019-12-22 23:22:41.438  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:1,result:true
+2019-12-22 23:22:41.447  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:3
+2019-12-22 23:22:41.448  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:2,result:true
+2019-12-22 23:22:41.457  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:4
+2019-12-22 23:22:41.457  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:3,result:true
+2019-12-22 23:22:41.470  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:5
+2019-12-22 23:22:41.470  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:4,result:true
+2019-12-22 23:22:41.476  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:6
+2019-12-22 23:22:41.477  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:5,result:true
+2019-12-22 23:22:41.486  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:7
+2019-12-22 23:22:41.487  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:6,result:true
+2019-12-22 23:22:41.494  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:8
+2019-12-22 23:22:41.496  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:7,result:true
+2019-12-22 23:22:41.504  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:9
+2019-12-22 23:22:41.505  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:8,result:true
+2019-12-22 23:22:41.519  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:10
+2019-12-22 23:22:41.520  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:9,result:true
+2019-12-22 23:22:41.526  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:11
+2019-12-22 23:22:41.527  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:10,result:true
+2019-12-22 23:22:41.536  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:12
+2019-12-22 23:22:41.537  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:11,result:true
+2019-12-22 23:22:41.541  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:13
+2019-12-22 23:22:41.542  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:12,result:true
+2019-12-22 23:22:41.547  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:14
+2019-12-22 23:22:41.547  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:13,result:true
+2019-12-22 23:22:41.551  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:15
+2019-12-22 23:22:41.552  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:14,result:true
+2019-12-22 23:22:41.556  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:16
+2019-12-22 23:22:41.556  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:15,result:true
+2019-12-22 23:22:41.559  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:17
+2019-12-22 23:22:41.560  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:16,result:true
+2019-12-22 23:22:41.564  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:18
+2019-12-22 23:22:41.565  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:17,result:true
+2019-12-22 23:22:41.570  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:19
+2019-12-22 23:22:41.571  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:18,result:true
+2019-12-22 23:22:41.578  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:20
+2019-12-22 23:22:41.579  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:19,result:true
+2019-12-22 23:22:41.589  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:21
+2019-12-22 23:22:41.590  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:20,result:true
+2019-12-22 23:22:41.594  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:22
+2019-12-22 23:22:41.595  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:21,result:true
+2019-12-22 23:22:41.600  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:23
+2019-12-22 23:22:41.601  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:22,result:true
+2019-12-22 23:22:41.606  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:24
+2019-12-22 23:22:41.607  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:23,result:true
+2019-12-22 23:22:41.610  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:25
+2019-12-22 23:22:41.611  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:24,result:true
+2019-12-22 23:22:41.616  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:26
+2019-12-22 23:22:41.616  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:25,result:true
+2019-12-22 23:22:41.620  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:27
+2019-12-22 23:22:41.621  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:26,result:true
+2019-12-22 23:22:41.624  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:28
+2019-12-22 23:22:41.625  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:27,result:true
+2019-12-22 23:22:41.630  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:29
+2019-12-22 23:22:41.631  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:28,result:true
+2019-12-22 23:22:41.642  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:30
+2019-12-22 23:22:41.643  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:29,result:true
+2019-12-22 23:22:41.675  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:31
+2019-12-22 23:22:41.676  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:30,result:true
+2019-12-22 23:22:41.688  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:32
+2019-12-22 23:22:41.688  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:31,result:true
+2019-12-22 23:22:41.700  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:33
+2019-12-22 23:22:41.701  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:32,result:true
+2019-12-22 23:22:41.711  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:34
+2019-12-22 23:22:41.712  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:33,result:true
+2019-12-22 23:22:41.718  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:35
+2019-12-22 23:22:41.719  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:34,result:true
+2019-12-22 23:22:41.731  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:36
+2019-12-22 23:22:41.732  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:35,result:true
+2019-12-22 23:22:41.739  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:37
+2019-12-22 23:22:41.739  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:36,result:true
+2019-12-22 23:22:41.745  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:38
+2019-12-22 23:22:41.746  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:37,result:true
+2019-12-22 23:22:41.753  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:39
+2019-12-22 23:22:41.753  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:38,result:true
+2019-12-22 23:22:41.759  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:40
+2019-12-22 23:22:41.759  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:39,result:true
+2019-12-22 23:22:41.763  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:41
+2019-12-22 23:22:41.763  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:40,result:true
+2019-12-22 23:22:41.770  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:42
+2019-12-22 23:22:41.770  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:41,result:true
+2019-12-22 23:22:41.773  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:43
+2019-12-22 23:22:41.773  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:42,result:true
+2019-12-22 23:22:41.778  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:44
+2019-12-22 23:22:41.778  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:43,result:true
+2019-12-22 23:22:41.784  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:45
+2019-12-22 23:22:41.784  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:44,result:true
+2019-12-22 23:22:41.789  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:46
+2019-12-22 23:22:41.789  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:45,result:true
+2019-12-22 23:22:41.793  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:47
+2019-12-22 23:22:41.793  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:46,result:true
+2019-12-22 23:22:41.798  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:48
+2019-12-22 23:22:41.798  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:47,result:true
+2019-12-22 23:22:41.806  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:49
+2019-12-22 23:22:41.806  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:48,result:true
+2019-12-22 23:22:41.810  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:50
+2019-12-22 23:22:41.810  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:49,result:true
+2019-12-22 23:22:41.815  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:51
+2019-12-22 23:22:41.815  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:50,result:true
+2019-12-22 23:22:41.819  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:52
+2019-12-22 23:22:41.819  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:51,result:true
+2019-12-22 23:22:41.823  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:53
+2019-12-22 23:22:41.824  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:52,result:true
+2019-12-22 23:22:41.829  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:54
+2019-12-22 23:22:41.829  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:53,result:true
+2019-12-22 23:22:41.834  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:55
+2019-12-22 23:22:41.835  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:54,result:true
+2019-12-22 23:22:41.841  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:56
+2019-12-22 23:22:41.842  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:55,result:true
+2019-12-22 23:22:41.847  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:57
+2019-12-22 23:22:41.848  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:56,result:true
+2019-12-22 23:22:41.855  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:58
+2019-12-22 23:22:41.856  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:57,result:true
+2019-12-22 23:22:41.867  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:59
+2019-12-22 23:22:41.867  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:58,result:true
+2019-12-22 23:22:41.873  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:60
+2019-12-22 23:22:41.874  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:59,result:true
+2019-12-22 23:22:41.880  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:61
+2019-12-22 23:22:41.881  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:60,result:true
+2019-12-22 23:22:41.892  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:62
+2019-12-22 23:22:41.893  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:61,result:true
+2019-12-22 23:22:41.901  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:63
+2019-12-22 23:22:41.902  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:62,result:true
+2019-12-22 23:22:41.918  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:64
+2019-12-22 23:22:41.919  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:63,result:true
+2019-12-22 23:22:41.930  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:65
+2019-12-22 23:22:41.931  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:64,result:true
+2019-12-22 23:22:41.943  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:66
+2019-12-22 23:22:41.944  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:65,result:true
+2019-12-22 23:22:41.953  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:67
+2019-12-22 23:22:41.953  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:66,result:true
+2019-12-22 23:22:41.958  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:68
+2019-12-22 23:22:41.958  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:67,result:true
+2019-12-22 23:22:41.969  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:69
+2019-12-22 23:22:41.969  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:68,result:true
+2019-12-22 23:22:41.977  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:70
+2019-12-22 23:22:41.977  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:69,result:true
+2019-12-22 23:22:41.983  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:71
+2019-12-22 23:22:41.984  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:70,result:true
+2019-12-22 23:22:41.989  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:72
+2019-12-22 23:22:41.989  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:71,result:true
+2019-12-22 23:22:41.993  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:73
+2019-12-22 23:22:41.994  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:72,result:true
+2019-12-22 23:22:42.001  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:74
+2019-12-22 23:22:42.001  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:73,result:true
+2019-12-22 23:22:42.006  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:75
+2019-12-22 23:22:42.006  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:74,result:true
+2019-12-22 23:22:42.012  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:76
+2019-12-22 23:22:42.012  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:75,result:true
+2019-12-22 23:22:42.017  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:77
+2019-12-22 23:22:42.018  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:76,result:true
+2019-12-22 23:22:42.024  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:78
+2019-12-22 23:22:42.034  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:77,result:true
+2019-12-22 23:22:42.073  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:79
+2019-12-22 23:22:42.073  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:78,result:true
+2019-12-22 23:22:42.079  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:80
+2019-12-22 23:22:42.079  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:79,result:true
+2019-12-22 23:22:42.086  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:81
+2019-12-22 23:22:42.086  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:80,result:true
+2019-12-22 23:22:42.094  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:82
+2019-12-22 23:22:42.095  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:81,result:true
+2019-12-22 23:22:42.100  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:83
+2019-12-22 23:22:42.101  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:82,result:true
+2019-12-22 23:22:42.106  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:84
+2019-12-22 23:22:42.107  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:83,result:true
+2019-12-22 23:22:42.111  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:85
+2019-12-22 23:22:42.111  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:84,result:true
+2019-12-22 23:22:42.121  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:86
+2019-12-22 23:22:42.121  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:85,result:true
+2019-12-22 23:22:42.125  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:87
+2019-12-22 23:22:42.131  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:86,result:true
+2019-12-22 23:22:42.139  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:88
+2019-12-22 23:22:42.139  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:87,result:true
+2019-12-22 23:22:42.145  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:89
+2019-12-22 23:22:42.145  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:88,result:true
+2019-12-22 23:22:42.148  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:90
+2019-12-22 23:22:42.149  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:89,result:true
+2019-12-22 23:22:42.157  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:91
+2019-12-22 23:22:42.158  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:90,result:true
+2019-12-22 23:22:42.164  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:92
+2019-12-22 23:22:42.165  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:91,result:true
+2019-12-22 23:22:42.170  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:93
+2019-12-22 23:22:42.170  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:92,result:true
+2019-12-22 23:22:42.174  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:94
+2019-12-22 23:22:42.174  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:93,result:true
+2019-12-22 23:22:42.177  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:95
+2019-12-22 23:22:42.178  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:94,result:true
+2019-12-22 23:22:42.182  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:96
+2019-12-22 23:22:42.182  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:95,result:true
+2019-12-22 23:22:42.186  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:97
+2019-12-22 23:22:42.186  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:96,result:true
+2019-12-22 23:22:42.190  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:98
+2019-12-22 23:22:42.190  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:97,result:true
+2019-12-22 23:22:42.193  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:99
+2019-12-22 23:22:42.194  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:98,result:true
+2019-12-22 23:22:42.197  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:100
+2019-12-22 23:22:42.197  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:100
+2019-12-22 23:22:42.197  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:99,result:false
+2019-12-22 23:22:42.200  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:101
+2019-12-22 23:22:42.201  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:101
+2019-12-22 23:22:42.203  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:100,result:false
+2019-12-22 23:22:42.207  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:102
+2019-12-22 23:22:42.208  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:102
+2019-12-22 23:22:42.208  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:101,result:false
+2019-12-22 23:22:42.212  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:103
+2019-12-22 23:22:42.212  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:103
+2019-12-22 23:22:42.213  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:102,result:false
+2019-12-22 23:22:42.216  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:104
+2019-12-22 23:22:42.217  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:104
+2019-12-22 23:22:42.217  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:103,result:false
+2019-12-22 23:22:42.219  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:105
+2019-12-22 23:22:42.219  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:105
+2019-12-22 23:22:42.219  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:104,result:false
+2019-12-22 23:22:42.222  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:106
+2019-12-22 23:22:42.222  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:106
+2019-12-22 23:22:42.222  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:105,result:false
+2019-12-22 23:22:42.225  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:107
+2019-12-22 23:22:42.225  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:107
+2019-12-22 23:22:42.225  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:106,result:false
+2019-12-22 23:22:42.227  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:108
+2019-12-22 23:22:42.228  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:108
+2019-12-22 23:22:42.228  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:107,result:false
+2019-12-22 23:22:42.231  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:109
+2019-12-22 23:22:42.231  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:109
+2019-12-22 23:22:42.231  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:108,result:false
+2019-12-22 23:22:42.235  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:110
+2019-12-22 23:22:42.236  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:110
+2019-12-22 23:22:42.237  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:109,result:false
+2019-12-22 23:22:42.243  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:111
+2019-12-22 23:22:42.243  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:111
+2019-12-22 23:22:42.243  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:110,result:false
+2019-12-22 23:22:42.247  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:112
+2019-12-22 23:22:42.248  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:112
+2019-12-22 23:22:42.248  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:111,result:false
+2019-12-22 23:22:42.269  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:113
+2019-12-22 23:22:42.270  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:113
+2019-12-22 23:22:42.270  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:112,result:false
+2019-12-22 23:22:42.275  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:114
+2019-12-22 23:22:42.276  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:114
+2019-12-22 23:22:42.276  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:113,result:false
+2019-12-22 23:22:42.280  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:115
+2019-12-22 23:22:42.281  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:115
+2019-12-22 23:22:42.287  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:114,result:false
+2019-12-22 23:22:42.293  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:116
+2019-12-22 23:22:42.293  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:116
+2019-12-22 23:22:42.294  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:115,result:false
+2019-12-22 23:22:42.299  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:117
+2019-12-22 23:22:42.303  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:117
+2019-12-22 23:22:42.304  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:116,result:false
+2019-12-22 23:22:42.308  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:118
+2019-12-22 23:22:42.308  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:118
+2019-12-22 23:22:42.308  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:117,result:false
+2019-12-22 23:22:42.319  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:119
+2019-12-22 23:22:42.320  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:119
+2019-12-22 23:22:42.320  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:118,result:false
+2019-12-22 23:22:42.324  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:120
+2019-12-22 23:22:42.324  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:120
+2019-12-22 23:22:42.324  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:119,result:false
+2019-12-22 23:22:42.348  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:121
+2019-12-22 23:22:42.348  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:121
+2019-12-22 23:22:42.349  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:120,result:false
+2019-12-22 23:22:42.355  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:122
+2019-12-22 23:22:42.355  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:122
+2019-12-22 23:22:42.356  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:121,result:false
+2019-12-22 23:22:42.363  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:123
+2019-12-22 23:22:42.363  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:123
+2019-12-22 23:22:42.364  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:122,result:false
+2019-12-22 23:22:42.369  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:124
+2019-12-22 23:22:42.369  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:124
+2019-12-22 23:22:42.370  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:123,result:false
+2019-12-22 23:22:42.374  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:125
+2019-12-22 23:22:42.374  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:125
+2019-12-22 23:22:42.374  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:124,result:false
+2019-12-22 23:22:42.378  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:126
+2019-12-22 23:22:42.378  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:126
+2019-12-22 23:22:42.379  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:125,result:false
+2019-12-22 23:22:42.383  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:127
+2019-12-22 23:22:42.383  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:127
+2019-12-22 23:22:42.384  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:126,result:false
+2019-12-22 23:22:42.388  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:128
+2019-12-22 23:22:42.388  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:128
+2019-12-22 23:22:42.388  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:127,result:false
+2019-12-22 23:22:42.400  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:129
+2019-12-22 23:22:42.400  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:129
+2019-12-22 23:22:42.400  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:128,result:false
+2019-12-22 23:22:42.408  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:130
+2019-12-22 23:22:42.408  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:130
+2019-12-22 23:22:42.408  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:129,result:false
+2019-12-22 23:22:42.412  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:131
+2019-12-22 23:22:42.413  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:131
+2019-12-22 23:22:42.413  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:130,result:false
+2019-12-22 23:22:42.419  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:132
+2019-12-22 23:22:42.419  WARN 9268 --- [main] com.workman.redissonLimite.RedissonRate  : 超过限流:132
+2019-12-22 23:22:42.420  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:131,result:false
+2019-12-22 23:22:42.434  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:1
+2019-12-22 23:22:42.435  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:132,result:true
+2019-12-22 23:22:42.438  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:1
+2019-12-22 23:22:42.438  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:133,result:true
+2019-12-22 23:22:42.445  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:2
+2019-12-22 23:22:42.445  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:134,result:true
+2019-12-22 23:22:42.453  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:3
+2019-12-22 23:22:42.454  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:135,result:true
+2019-12-22 23:22:42.462  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:4
+2019-12-22 23:22:42.462  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:136,result:true
+2019-12-22 23:22:42.475  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:5
+2019-12-22 23:22:42.475  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:137,result:true
+2019-12-22 23:22:42.485  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:6
+2019-12-22 23:22:42.486  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:138,result:true
+2019-12-22 23:22:42.490  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:7
+2019-12-22 23:22:42.490  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:139,result:true
+2019-12-22 23:22:42.501  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:8
+2019-12-22 23:22:42.507  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:140,result:true
+2019-12-22 23:22:42.550  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:9
+2019-12-22 23:22:42.551  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:141,result:true
+2019-12-22 23:22:42.568  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:10
+2019-12-22 23:22:42.570  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:142,result:true
+2019-12-22 23:22:42.574  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:11
+2019-12-22 23:22:42.575  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:143,result:true
+2019-12-22 23:22:42.580  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:12
+2019-12-22 23:22:42.581  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:144,result:true
+2019-12-22 23:22:42.585  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:13
+2019-12-22 23:22:42.586  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:145,result:true
+2019-12-22 23:22:42.590  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:14
+2019-12-22 23:22:42.590  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:146,result:true
+2019-12-22 23:22:42.593  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:15
+2019-12-22 23:22:42.594  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:147,result:true
+2019-12-22 23:22:42.598  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:16
+2019-12-22 23:22:42.598  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:148,result:true
+2019-12-22 23:22:42.603  INFO 9268 --- [main] com.workman.redissonLimite.RedissonRate  : get redis count:17
+2019-12-22 23:22:42.604  INFO 9268 --- [main] com.workman.RedissonLimiteTest           : redisson test,current num:149,result:true
+2019-12-22 23:22:42.667  INFO 9268 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-22 23:24:45.914  INFO 12780 --- [restartedMain] com.SpringBootExampleApplication         : Starting SpringBootExampleApplication on DESKTOP-0B8266I with PID 12780 (D:\workspace_idea\spring-boot-example\target\classes started by liuzhuang in D:\workspace_idea\spring-boot-example)
+2019-12-22 23:24:45.922  INFO 12780 --- [restartedMain] com.SpringBootExampleApplication         : No active profile set, falling back to default profiles: default
+2019-12-22 23:24:46.090  INFO 12780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-22 23:24:46.090  INFO 12780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-22 23:24:48.393  INFO 12780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-22 23:24:48.397  INFO 12780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2019-12-22 23:24:48.764  INFO 12780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 350ms. Found 0 Redis repository interfaces.
+2019-12-22 23:24:49.455  INFO 12780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-12-22 23:24:49.517  INFO 12780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-22 23:24:49.518  INFO 12780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-22 23:24:49.689  INFO 12780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-22 23:24:49.689  INFO 12780 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3595 ms
+2019-12-22 23:24:50.079  INFO 12780 --- [restartedMain] org.redisson.Version                     : Redisson 3.11.6
+2019-12-22 23:24:52.459  INFO 12780 --- [redisson-netty-2-3] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:24:52.475  INFO 12780 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:24:52.697  INFO 12780 --- [restartedMain] com.workman.utils.RedissonManager        : ===============redisson start
+2019-12-22 23:24:52.697  INFO 12780 --- [restartedMain] com.workman.utils.RedissonManager        : ===========redisson create
+2019-12-22 23:24:52.697  INFO 12780 --- [restartedMain] com.workman.config.RedissonConfig        : ======config:192.168.118.130,6379
+2019-12-22 23:24:52.709  INFO 12780 --- [restartedMain] org.redisson.Version                     : Redisson 3.11.6
+2019-12-22 23:24:53.011  INFO 12780 --- [redisson-netty-5-29] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:24:53.063  INFO 12780 --- [redisson-netty-5-11] o.r.c.pool.MasterConnectionPool          : 100 connections initialized for 192.168.118.130/192.168.118.130:6379
+2019-12-22 23:24:53.066  INFO 12780 --- [restartedMain] com.workman.utils.RedissonManager        : ===========redisson create fin
+2019-12-22 23:24:53.405  INFO 12780 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-22 23:24:53.491  INFO 12780 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-22 23:24:54.133  INFO 12780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-22 23:24:54.144  INFO 12780 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-22 23:24:54.227  INFO 12780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-12-22 23:24:54.237  INFO 12780 --- [restartedMain] com.SpringBootExampleApplication         : Started SpringBootExampleApplication in 9.988 seconds (JVM running for 13.329)
+2019-12-22 23:24:54.810  INFO 12780 --- [RMI TCP Connection(1)-192.168.118.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 23:24:54.810  INFO 12780 --- [RMI TCP Connection(1)-192.168.118.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-22 23:24:54.822  INFO 12780 --- [RMI TCP Connection(1)-192.168.118.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-12-22 23:25:24.662  INFO 12780 --- [http-nio-8090-exec-2] com.javapoint.controller.HomeController  : invoke hello method and success

@@ -16,7 +16,7 @@ public class RedissonLimiteTest {
     @Autowired
     private RedissonRate redissonRate;
 
-    @Test
+    //@Test
     public void TestLimit() {
         redissonRate.reload();
         for (int i = 0; i < 150; i++) {

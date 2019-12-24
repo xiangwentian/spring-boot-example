@@ -91,6 +91,13 @@
             <artifactId>zkclient</artifactId>
             <version>0.11</version>
         </dependency>
+        <!-- zk分布式锁现成的轮子 -->
+        <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-recipes -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>4.2.0</version>
+        </dependency>
 
 
     </dependencies>

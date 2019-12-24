@@ -20,7 +20,7 @@ public class RedisTest {
     @Resource
     private RedissonManager manager;
 
-    @Test
+    //@Test
     public void testRedis() {
         Long invokeTime = System.currentTimeMillis();
         ExecutorService executorService = Executors.newCachedThreadPool();//Executors.newFixedThreadPool(3);

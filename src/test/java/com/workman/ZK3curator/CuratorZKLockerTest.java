@@ -1,4 +1,4 @@
-package com.workman.curatorZK3;
+package com.workman.ZK3curator;
 
 import com.SpringBootExampleApplication;
 import com.workman.zk2.Locker;

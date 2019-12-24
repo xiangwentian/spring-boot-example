@@ -1,4 +1,4 @@
-package com.workman.curatorZK3;
+package com.workman.ZK3curator;
 
 import com.workman.zk2.Locker;
 import lombok.extern.slf4j.Slf4j;

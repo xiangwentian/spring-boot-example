@@ -19,7 +19,7 @@ public class HomeController {
     @ResponseBody
     public String hello(){
         log.info("invoke hello method and success");
-        return "hello 8090";
+        return "hello 8000";
     }
 
     @RequestMapping("/")

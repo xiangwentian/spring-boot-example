@@ -1,0 +1,20 @@
+spring注解@PostConstruct
+该注解可以实现在运行工程时，自动运行该注解下的方法；
+
+@PostConstruct是java5的时候引入的注解，指的是在项目启动的时候执行这个方法，也可以理解为在spring容器启动的时候执行，可作为一些数据的常规化加载，比如数据字典之类的。
+
+ 
+
+ 被@PostConstruct修饰的方法会在服务器加载Servle的时候运行，并且只会被服务器执行一次。PostConstruct在构造函数之后执行
+
+也就是加载顺序 
+
+ 服务器加载Servlet -> servlet 构造函数的加载 -> postConstruct ->init（init是在service 中的初始化方法. 创建service 时发生的事件.） ->Service->destory->predestory->服务器卸载serlvet
+
+那么问题：spring中Constructor、@Autowired、@PostConstruct的顺序
+Constructor >> @Autowired >> @PostConstruct
+
+依赖注入的字面意思就可以知道，要将对象p注入到对象a，那么首先就必须得生成对象p与对象a，才能执行注入。所以，如果一个类A中有个成员变量p被@Autowired注解，那么@Autowired注入是发生在A的构造方法执行完之后的。
+
+@PostConstruct应用场景：
+如果想在生成对象时候完成某些初始化操作，而偏偏这些初始化操作又依赖于依赖注入，那么就无法在构造函数中实现。为此，可以使用@PostConstruct注解一个方法来完成初始化，@PostConstruct注解的方法将会在依赖注入完成后被自动调用。

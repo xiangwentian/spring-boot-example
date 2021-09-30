@@ -1,7 +1,7 @@
 package com.workman.string;
 
-import com.alibaba.nacos.common.utils.Pair;
 import lombok.Data;
+import org.springframework.data.util.Pair;
 
 /**
  * 返回多个参数
@@ -14,7 +14,7 @@ public class PairTest {
         //Pair<A, B> pair = new Pair<A, B>("value1", "value2");
 //        Pair.with("value1", "value2");
 //        System.out.println("a:" + a + " ,b:" + b);
-        Pair<String, Integer> pair = Pair.with("hello", Integer.valueOf(23));
+        Pair<String, Integer> pair = Pair.of("hello", Integer.valueOf(23));//.with("hello", Integer.valueOf(23));
         System.out.println("1:" + pair.getFirst() + " ,2:" + pair.getSecond());
     }
 

@@ -14,7 +14,7 @@ import java.util.Arrays;
 @Component
 public class WorkmanAsp {
 
-    @Pointcut("@annotation(com.source.workman.designMode.proxy.springaop.Workman)")
+    @Pointcut("@annotation(com.workman.designMode.proxy.springaop.Workman)")
     private void pointcut() {
 
     }

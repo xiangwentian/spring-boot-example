@@ -15,7 +15,7 @@ public class RedissonConfig {
     @Value("${spring.redis.port}")
     private String port;
 
-    @Value("${spring.redis.maxWaitMillis}")
+    @Value("${spring.redis.jedis.pool.max-wait}")
     private int maxWaitMillis;
 
     @Value("${spring.redis.maxTotal}")
@@ -30,8 +30,11 @@ public class RedissonConfig {
     @Value("${spring.redis.timeout}")
     private int timeout;
 
-    @Value("${spring.redis.maxIdle}")
+    @Value("${spring.redis.jedis.pool.max-idle}")
     private int maxIdle;
+
+    @Value("${spring.redis.password}")
+    private String password;
 
     private static final String REDIS_PROTOCOL = "redis://";
 
@@ -117,7 +120,7 @@ public class RedissonConfig {
      */
     public Config getConfig() {
         Config config = new Config();
-        config.useSingleServer().setAddress(REDIS_PROTOCOL + host + ":" + port).setDatabase(3).setConnectionMinimumIdleSize(maxIdle).setConnectionPoolSize(maxTotal).setConnectTimeout(timeout);
+        config.useSingleServer().setAddress(REDIS_PROTOCOL + host + ":" + port).setPassword(password).setDatabase(3).setConnectionMinimumIdleSize(maxIdle).setConnectionPoolSize(maxTotal).setConnectTimeout(timeout);
         log.info("======config:{},{}", host, port);
         return config;
     }

@@ -1,6 +1,7 @@
 package com.workman.string;
 
-import com.alibaba.nacos.api.utils.StringUtils;
+
+import io.micrometer.core.instrument.util.StringUtils;
 
 /**
  * String的内存和intern()方法
